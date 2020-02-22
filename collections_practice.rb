@@ -38,3 +38,12 @@ end
 def sum_array(num)
 num.inject {|result, num| result + num }
 end
+
+def add_s(array)
+  array.each_with_index.collect |str, index|
+  if index == [1]
+    return str
+  end
+  str << "s"
+end
+end 
