@@ -21,7 +21,6 @@ end
 
 def kesha_maker(array)
 new_array []
-
 kesha_maker.each do |str|
   new_str = str.split(" ")
   new_str[2]= "$"
