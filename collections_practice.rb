@@ -45,6 +45,6 @@ def add_s(array)
     return str
   else
   return str << "s"
-  end
+    end
   end
 end
