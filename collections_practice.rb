@@ -20,5 +20,12 @@ array.reverse
 end
 
 def kesha_maker(array)
-array
+new_array []
+
+kesha_maker.each do |str|
+  new_str = str.split(" ")
+  new_str[2]= ["$"]
+  new_array << new_str
+end 
+new_array
 end 
