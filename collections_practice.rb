@@ -33,3 +33,8 @@ end
 def find_a(array)
 array.select {|str| str.start_with? ("a")}
 end
+
+
+def sum_array(array)
+array.sum {|num| array.sum(n..n-1)}
+end
