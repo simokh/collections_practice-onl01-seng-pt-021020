@@ -40,11 +40,11 @@ num.inject {|result, num| result + num }
 end
 
 def add_s(array)
-  array.each_with_index.collect |str, index|
+  array.each_with_index.collect do |str, index|
   if index == [1]
     return str
   else
-  str << "s"
-end
-end
+  return str << "s"
+  end
+  end
 end
