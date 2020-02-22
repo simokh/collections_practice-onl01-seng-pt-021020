@@ -36,5 +36,5 @@ end
 
 
 def sum_array(array)
-array.sum {|num| array.sum(n..n-1)}
+array.sum {|num| array.sum(num..num-1)}
 end
