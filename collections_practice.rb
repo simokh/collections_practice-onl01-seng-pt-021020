@@ -31,5 +31,5 @@ new_array
 end
 
 def find_a(array)
-array.find_a{|str| str.start_with "a"}
+array.find_all {|str| str.start_with "a"}
 end
