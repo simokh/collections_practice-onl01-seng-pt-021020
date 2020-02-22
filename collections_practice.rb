@@ -35,6 +35,6 @@ array.select {|str| str.start_with? ("a")}
 end
 
 
-def sum_array(array)
-array.sum {|num| array.sum(num..num-1)}
+def sum_array(num)
+num.inject {|result, num| result + num }
 end
