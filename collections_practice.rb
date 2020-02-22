@@ -32,4 +32,4 @@ end
 
 def find_a(array)
 array.find_a{|str| str.start_with "a"}
-end 
+end
